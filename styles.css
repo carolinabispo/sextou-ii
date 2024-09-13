@@ -1,0 +1,46 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Container principal */
+.container {
+    background-color: #064e3b; /* bg-green-950 */
+    width: 100vw; /* w-screen */
+    height: 100vh; /* h-screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Título */
+.title-container {
+    width: 25%; /* w-1/4 */
+    height: 40px; /* h-10 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title {
+    color: #facc15; /* text-yellow-400 */
+    font-size: 1.5rem; /* text-2xl */
+}
+
+/* Imagem */
+.image-container {
+    width: 25%; /* w-1/4 */
+    height: 20%; /* h-1/5 */
+    background-color: #e5e7eb; /* bg-neutral-200 */
+    margin-bottom: 30em; /* mb-28 */
+    margin-right: 10rem;
+}
+
+.image {
+    height: auto;
+    cursor: pointer;
+}
